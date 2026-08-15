@@ -16647,6 +16647,7 @@ Sidebar
     bottom: 70px;
     display: flex;
 	transition: all 0.3s ease;
+	z-index: 9999;
 }
 
 .whatsapp-support:hover {
