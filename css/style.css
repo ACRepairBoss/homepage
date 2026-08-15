@@ -16634,3 +16634,63 @@ Sidebar
 .footer-bottom.home5-style {
   background-color: #282828;
 }
+
+
+
+
+
+
+
+.whatsapp-support {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 9999;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 14px 20px;
+    border-radius: 50px;
+
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+
+    transition: all 0.3s ease;
+}
+
+.whatsapp-support:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+.whatsapp-icon {
+    font-size: 22px;
+    line-height: 1;
+	width: 50px;
+}
+
+.whatsapp-text {
+    white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+    .whatsapp-support {
+        right: 15px;
+        bottom: 15px;
+        padding: 14px;
+        border-radius: 50%;
+    }
+
+    .whatsapp-text {
+        display: none;
+    }
+}
