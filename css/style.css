@@ -16644,7 +16644,7 @@ Sidebar
 .whatsapp-support {
     position: fixed;
     right: 25px;
-    bottom: 25px;
+    bottom: 50px;
     z-index: 9999;
 
     display: flex;
