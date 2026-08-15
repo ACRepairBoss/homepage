@@ -16643,11 +16643,10 @@ Sidebar
 
 .whatsapp-support {
     position: fixed;
-    right: 25px;
+    right: 20px;
     bottom: 70px;
     z-index: 9999;
     display: flex;
-    border-radius: 50px;
 	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 	transition: all 0.3s ease;
 }
@@ -16658,18 +16657,22 @@ Sidebar
 }
 
 .whatsapp-icon {
-    font-size: 22px;
-    line-height: 1;
-	width: 50px;
+	width: 80px;
+	height: 80px;
 }
 
 @media (max-width: 600px) {
     .whatsapp-support {
         right: 15px;
-        bottom: 40px;
+        bottom: 60px;
         padding: 7px;
         border-radius: 50%;
     }
+
+	.whatsapp-icon {
+	width: 60px;
+	height: 60px;
+}
 
     
 }
