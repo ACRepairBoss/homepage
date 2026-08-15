@@ -16644,7 +16644,7 @@ Sidebar
 .whatsapp-support {
     position: fixed;
     right: 25px;
-    bottom: 50px;
+    bottom: 70px;
     z-index: 9999;
 
     display: flex;
@@ -16685,8 +16685,8 @@ Sidebar
 @media (max-width: 600px) {
     .whatsapp-support {
         right: 15px;
-        bottom: 15px;
-        padding: 14px;
+        bottom: 40px;
+        padding: 7px;
         border-radius: 50%;
     }
 
